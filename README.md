@@ -1,4 +1,4 @@
-# YouTube Bookmarking Extension
+# DMarker
 
 This Chrome extension allows you to easily save bookmarks for YouTube videos with timestamps, categories, and notes.
 
