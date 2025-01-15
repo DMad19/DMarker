@@ -49,4 +49,4 @@ This extension was developed in collaboration with Gemini, a large language mode
 
 This README file now includes a brief note about our collaboration with Gemini.
 
-I hope this is helpful! Let me know if you have any other questions or modifications you'd like to make.
+I hope this is helpful! Let me know if you have any other questions or modifications you'd like to make
