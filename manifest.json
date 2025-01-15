@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "DMarker",
+  "version": "1.0",
+  "description": "Save YouTube bookmarks with timestamps.",
+  "permissions": [
+    "activeTab", 
+    "storage" 
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

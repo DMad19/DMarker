@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Bookmark</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <h1>Save YouTube Bookmark</h1>
+    <div>
+      <label for="url">URL:</label>
+      <input type="text" id="url" disabled>
+    </div>
+    <div>
+      <label for="timestamp">Timestamp:</label>
+      <input type="text" id="timestamp" placeholder="HH:MM:SS"> 
+    </div>
+    <div>
+      <label for="category">Category:</label>
+      <input type="text" id="category">
+    </div>
+    <div>
+      <label for="notes">Notes:</label>
+      <textarea id="notes"></textarea>
+    </div>
+    <input type="file" id="importFile" style="display: none;">
+    <div class="button-grid"> 
+      <div class="button-row">
+        <button id="saveButton">Save Bookmark</button>
+        <button id="clearButton">Clear All</button>
+      </div>
+      <div class="button-row">
+        <button id="exportButton">Export Bookmarks</button>
+        <button id="importButton">Import Bookmarks</button>
+      </div>
+    </div>
+    <div>
+      <label for="filter">Filter by Category:</label>
+      <input type="text" id="filter" placeholder="Enter category">
+    </div>
+    <div>
+      <label for="sort">Sort by:</label>
+      <select id="sort">
+        <option value="none">None</option>
+        <option value="asc">Timestamp (Ascending)</option>
+        <option value="desc">Timestamp (Descending)</option>
+      </select>
+    </div>
+
+    <ul id="bookmarkList"></ul> 
+    <script src="popup.js"></script>
+  </body>
+</html>

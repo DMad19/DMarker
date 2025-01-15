@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+input[type="text"], textarea {
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+    margin: 2px;
+  padding: 10px 15px;
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#bookmarkList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#bookmarkList li {
+  margin-bottom: 5px;
+}
+
+#bookmarkList a {
+  color: #007bff; 
+  text-decoration: none;
+}
+.button-grid {
+    display: flex;
+    flex-direction: column; 
+}
+  
+.button-row {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.button-grid button {
+    flex: 1; /* Make buttons equally wide */
+}
